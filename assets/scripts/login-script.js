@@ -19,7 +19,7 @@ loginFormElement.addEventListener('submit', function(event) {
   const password = inputPasswordElement.value;
   if (email == expectedEmail && password == expectedPassword) {
     goToHome();
-  } else {
+  } else {    
     showPopUp();
   }
 });
